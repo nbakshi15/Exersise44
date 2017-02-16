@@ -12,7 +12,7 @@ public class Main {
         String name;
         int j;
         BankAccount ba [] = new BankAccount[5];
-                for(j =0; j < ba.length; j++)
+                for(j =0; j < ba.length; j++) //
                 {
                     Scanner kbReader = new Scanner(System.in);
                     System.out.print("Please enter the name to whom the account belongs. ");
